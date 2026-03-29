@@ -20,13 +20,13 @@ buildExpired = false
   author = "NTRナビ編集部"
   images = ["https://musclelove-777.github.io/ntr-navi/favicon.svg"]
   keywords = ["NTR AV おすすめ", "寝取られ AV ランキング", "NTR 人妻", "寝取られ 新作 2026", "NTR AV 女優", "寝取られ 動画 FANZA", "NTR 上司", "ネトラセ AV"]
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToc = true
+  ShowToc = false
   TocOpen = false
   comments = false
 
@@ -52,7 +52,8 @@ buildExpired = false
 [params.cover]
   hidden = false
   hiddenInList = false
-  hiddenInSingle = true
+  hiddenInSingle = false
+  linkFullImages = true
 
 [params.fuseOpts]
   isCaseSensitive = false
