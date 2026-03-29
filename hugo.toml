@@ -1,0 +1,94 @@
+baseURL = "https://example.github.io/ntr-navi/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "NTRナビ | 寝取られAVおすすめランキング"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+
+[params]
+  env = "production"
+  description = "NTR・寝取られAVのおすすめ作品をランキング形式で毎日更新。FANZAの新作からシチュ別まで完全ガイド"
+  author = "NTRナビ編集部"
+  images = ["https://musclelove-777.github.io/ntr-navi/favicon.svg"]
+  keywords = ["NTR AV おすすめ", "寝取られ AV ランキング", "NTR 人妻", "寝取られ 新作 2026", "NTR AV 女優", "寝取られ 動画 FANZA", "NTR 上司", "ネトラセ AV"]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "NTRナビ"
+    Content = "NTR・寝取られAVのおすすめ作品を毎日厳選してお届け。サンプル動画付きでチェック！"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 10
+
+[[menus.main]]
+  name = "カテゴリ"
+  url = "/categories/"
+  weight = 20
+
+[[menus.main]]
+  name = "タグ"
+  url = "/tags/"
+  weight = 30
+
+[[menus.main]]
+  name = "アーカイブ"
+  url = "/archives/"
+  weight = 40
