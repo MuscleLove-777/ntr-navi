@@ -3,7 +3,8 @@ languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "NTRナビ | 寝取られAVおすすめランキング"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 20
 
 enableRobotsTXT = true
 buildDrafts = false
